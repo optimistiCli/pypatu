@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_ishwest"
+version = "0.0.1"
+authors = [
+  { name="Ish West", email="no@ema.il" },
+]
+description = "Packaging Tutorial Product"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/optimistiCli/pypatu"
+"Bug Tracker" = "https://github.com/optimistiCli/pypatu/issues"
